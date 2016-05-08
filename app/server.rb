@@ -4,7 +4,7 @@ class BookmarkManager < Sinatra::Base
   register Sinatra::Flash
   register Sinatra::Partial
   use Rack::MethodOverride
-  set :session_secret, 'super secret'
+  set :session_secret, 'super secretssss'
   set :partial_template_engine, :erb
   enable :partial_underscores
 
